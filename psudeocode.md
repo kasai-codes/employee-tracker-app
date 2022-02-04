@@ -16,7 +16,7 @@ Veiw all roles.]
 
 ---------------------------------------------------------------------------
 
-[These will be CREATE - 'INSERT INTO  [tables_name] (col1, col2) VALUES (val1, val2)' i.e INSERT INTO deparments 
+[These will be CREATE - 'INSERT INTO  [tables_name] (col-1, col-2) VALUES (val-1, val-2)' i.e INSERT INTO deparments 
 
 Add a deparments
 
