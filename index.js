@@ -2,6 +2,18 @@
 const db = require("./db/connection");
 const consoleTable = require("console.table");
 const inquirer = require("inquirer");
+const figlet = require('figlet');
+
+
+
+db.connect((error) => {
+    if(error) throw error;
+console.log(new Array(100).fill("=").join("")+"\n");
+console.log(figlet.textSync('Employee Tracker \n'));
+console.log(new Array(40).fill(" ").join("")+'Created By: Kasai Preston \n');
+console.log(new Array(100).fill("=").join("")+"\n");
+options();
+});
 
 const options = async () => {
   inquirer

@@ -1,27 +1,26 @@
-INSERT INTO
-  departments (id, name)
-VALUES
-  (1, 'Human Resources'),
-  (2, 'Finance'),
-  (3, 'Tech Support'),
-  (4, 'Customer Support'),
-  (5, 'Janitorial');
-INSERT INTO
-  roles (id, title, salary, department_id)
-VALUES
-  (1, 'Human resources director', '90000', 1),
-  (2, 'Customer success engineer', '80000', 4),
-  (3, 'Cleanliness specialist', '100000', 5),
-  (4, 'Lead financial advisor', '120000', 2),
-  (5, 'Lead tech support', '200000', 3),
-  (6, 'Receptionist', '45000', 4),
-  (7, 'Recruiter', '85000', 1);
-INSERT INTO
-  employees (id, first_name, last_name, role_id, manager_id)
-VALUES
-  (1, 'Larrey', 'Biff', 2, 4),
-  (2, 'Ken', 'Mcelroy', 1, 1),
-  (3, 'Jeff', 'Hagen', 6, 4),
-  (4, 'Kayla', 'Preston', 4, 2),
-  (5, 'Marissa', 'Leo', 7, 1),
-  (6, 'Henry', 'Rollins', 3, 5);
+-- Pre populate the tables with existing data
+INSERT INTO departments (id, name)
+VALUES (1, 'Finance'),
+       (2, 'Sales'),
+       (3, 'Customer Support'),
+       (4, 'Tech'),
+       (5, 'Reception'),
+       (6, 'Leadership');
+
+INSERT INTO roles (id, title, salary, department_id)
+VALUES (1, 'Senior finance advisor', '130000', 1),
+       (2, 'Lead Tech', '120000', 2),
+       (3, 'Receptionist', '40000', 5),
+       (4, 'Junior finance advisor', '90000', 1),
+       (5, 'Office Manager', '70000', 5),
+       (6, 'Sales Manager', '140000', 2),
+       (7, 'Sales Rep', '60000', 2);
+
+INSERT INTO employees (id, first_name, last_name, role_id, manager_id)
+VALUES (1, 'Mark', 'Lee', 6, 1),
+       (2, 'Levi', 'Smith', 7, 1),
+       (3, 'Karen', 'Bates', 5, 3),
+       (4, 'John', 'Jacobsen', 7, 1),
+       (5, 'Ruby', 'Jones', 3, 3),
+       (6, 'Rogers', 'Michelson', 1, 6);
+
