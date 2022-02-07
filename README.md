@@ -28,9 +28,15 @@ I have created a Node.js application using MySQL  and Inquirer to do just that. 
 
 Type the following command into your terminal to start the application:
 
-- npm init -y
+- npm i
 
--npm i
+Log into Mysql then run the following commands:
+
+- source shcema.sql; 
+
+- source seeds.sql;
+
+- quit;
 
 - node index.js
 
@@ -43,10 +49,12 @@ Type the following command into your terminal to start the application:
 
 ## Preview
 
-![gif](DEMO.gif)
-
+<a href="https://www.loom.com/share/bb7c3f2cffa54e5c94ffabfd8a58e447">
+    <p>Click here to watch full video</p>
+    <img style="max-width:666px;" src="https://cdn.loom.com/sessions/thumbnails/bb7c3f2cffa54e5c94ffabfd8a58e447-with-play.gif">
+  </a>
 
 ## Deployed
 
-[Employee Tracker App]( https://kp-note-taker101.herokuapp.com/)
+[Employee Tracker App]( https://employee-tracker-kasai.herokuapp.com/)
 
