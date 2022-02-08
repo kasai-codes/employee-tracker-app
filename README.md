@@ -54,7 +54,4 @@ Log into Mysql then run the following commands:
     <img style="max-width:666px;" src="https://cdn.loom.com/sessions/thumbnails/bb7c3f2cffa54e5c94ffabfd8a58e447-with-play.gif">
   </a>
 
-## Deployed
-
-[Employee Tracker App]( https://employee-tracker-kasai.herokuapp.com/)
 
